@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle":"dark",
+  "navigationBarBackgroundColor": "#000",
+  "navigationBarTitleText": "常规",
+  "navigationBarTextStyle":"#fff",
+  "usingComponents": {
+    "wxc-button": "../../dist/packages/@minui/wxc-button/dist/index"
+  }
+}

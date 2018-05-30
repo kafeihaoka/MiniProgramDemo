@@ -1,0 +1,26 @@
+/* pages/rec/rec.wxss */
+.camera{  
+  height:1080rpx;  
+  width:  750rpx;  
+}  
+  
+.pause,.time {  
+  flex: 1;  
+  height: 100%;  
+}  
+.time {  
+  text-align: center;  
+  background-color: rgba(0, 0, 0, .5);  
+  color: white;  
+  line-height: 50px;  
+}  
+.img {  
+  width: 40px;  
+  height: 40px;  
+  margin: 5px auto;  
+}
+.hintTxt{
+    position: relative;
+    top: 50%;
+    height: 50px;
+}

@@ -1,0 +1,11 @@
+<import src="../../lib/we-cropper/we-cropper.wxml"/>
+
+<view class="cropper-wrapper">
+    <template is="we-cropper" data="{{...cropperOpt}}"/>
+</view>
+<view class="button-normal-wrap marginT" bindtap="uploadTap">
+    <wxc-button size="normal" type="beauty" value="上传图片" ></wxc-button>
+</view>
+<view class="button-normal-wrap marginT" bindtap="getCropperImage">
+    <wxc-button size="normal" type="beauty" value="生成图片" ></wxc-button>
+</view>

@@ -1,0 +1,47 @@
+<!--pages/setting/setting.wxml-->
+<view>
+    <wxc-panel border="{{false}}" >
+        <wxc-flex class="wrap" >
+            <wxc-flex class="item main" dir="left">
+                <view class="item">
+                 <wxc-avatar class="avatar" count="7" src="https://s11.mogucdn.com/p2/170413/upload_86dkh4e886991g9lji7a6g5c530ji_400x400.jpg"></wxc-avatar>
+                </view>
+                <view class="item">superMan</view>
+                <view class="item">3年老司机 |</view>
+                <view class="item">油量：750</view>
+            </wxc-flex>
+            <view class="button-small-wrap">
+                <wxc-button plain="{{true}}" size="small" type="beauty" value="签到"></wxc-button>
+            </view>
+        </wxc-flex>
+        <wxc-flex class="wrapContent" main="{{main}}">
+            <view class="wrapContent-1">
+                  <view class="item marginT">栏 1</view>
+                  <view class="item">栏 2</view>
+                  <view class="item">栏 3</view>
+            </view>
+            <wxc-cc class="wrapContent-2">
+                 <wxc-avatar class="carImg" src="https://s11.mogucdn.com/p2/170413/upload_86dkh4e886991g9lji7a6g5c530ji_400x400.jpg"></wxc-avatar>
+            </wxc-cc>
+        </wxc-flex>
+        <wxc-flex class="navBar" main="around">
+             <view class="item">关注：66</view>
+             <view class="item">发布：88</view>
+             <view class="item">粉丝：88</view>
+        </wxc-flex>
+    </wxc-panel>
+
+    <view>
+          <view class="list-wrap">
+                <view class="list-item">
+                    <wxc-list title="修改资料" mode="none"></wxc-list>
+                    <wxc-list title="我点赞的内容" dot="{{true}}"></wxc-list>
+                    <wxc-list title="油量任务" mode="none"></wxc-list>
+                    <wxc-list title="标题文字" mode="none"></wxc-list>
+                    <wxc-list title="兑换礼品" mode="none"></wxc-list>
+                    <wxc-list title="礼品订单" mode="none"></wxc-list>
+                    <wxc-list title="关于车咖" mode="none"></wxc-list>
+                </view>
+          </view>
+      </view>
+</view>

@@ -1,0 +1,43 @@
+<!--main.wxml-->
+<view class='page'>
+ <view class="input-wrap" bindtap='goSearch' hidden="{{searchToggle}}">
+        <wxc-input type="text" icon="search" placeholder="请输入" disabled="true">
+        </wxc-input>
+ </view>
+ <swiper indicator-dots="{{indicatorDots}}" class='swiper'
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:for-item="imgUrl" wx:key="imgIndex">
+    <swiper-item data-key="{{imgIndex}}" class="swiper-item">
+      <image src="{{imgUrl}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+  </swiper>
+  <view class="rankBoard  paddingL_6 paddingR_6">
+    <view class='rankTop w_100 display_flex flex_row borderBottom'>
+      <view class='w_half display_flex flex_center'  bindtap='goP'>1458</view>
+      <view class='w_half'  bindtap='goN'>
+        <view class='paddingT_6'>北京市海淀区 NO.1</view>
+        <view class='paddingT_6 paddingB_6'>好友 NO.3</view>
+      </view>
+    </view>
+
+    <view class='rankContent w_100 '>
+      <view class='navBar'>
+        <view class='navTxt'>推荐</view>
+        <view class='navTxt'>蜘蛛侠</view>
+        <view class='navTxt'>More</view>
+        <view class='navTxtR'>+</view>
+      </view>
+    </view>
+
+    <view class='rankBottom w_100 '>
+      <video id="myVideo" class="w_100" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"></video>
+        <video id="myVideo" class="w_100" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"></video>
+    </view>
+    </view>
+<!-- <loading class="icon-loading" hidden="{{hiddenLoading}}">正在加载</loading> -->
+<view class="section">
+  <wxc-toast is-show="{{false}}" text="提示成功!"></wxc-toast>
+</view>
+
+</view>

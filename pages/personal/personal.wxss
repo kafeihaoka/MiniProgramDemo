@@ -1,0 +1,71 @@
+/* pages/setting/setting.wxss */
+@import "../../common/common.wxss";
+  .avatar {
+    display: block;
+    width: 40rpx;
+    height:40rpx;
+  }
+   .wrap {
+      display: block;
+      padding: 10rpx;
+      height:50rpx;
+    }
+   .item {
+      font-size: 22rpx;
+      text-align: center;
+      margin-right:10rpx;
+      line-height:50rpx
+   }
+   .side {
+       width: 100rpx;
+       background: #afdde3;
+       flex-grow: 0;
+     }
+     .main {
+       flex-grow: 1;
+     }
+   .button-wrap {
+       flex-grow: 0;
+     }
+   .wrapContent{
+       display: block;
+       padding: 10rpx;
+       height:200rpx;
+   }
+   .wrapContent-1{
+       height:100%;
+       display: block;
+       width:50%;
+       padding-left:10rpx;
+       background:#f2f2f2;
+   }
+   .wrapContent-2{
+       height:100%;
+       display: block;
+       width:50%;
+       background: #f397b2;
+   }
+   .carImg{
+       display: block;
+       width: 100rpx;
+       height:100rpx;
+   }
+   .navBar{
+       width:100%;
+       display: block;
+       padding: 10rpx;
+       height:50rpx;
+   }
+   .list-wrap {
+       width: 100%;
+       background: #efefef;
+       padding-bottom: 30rpx;
+       padding-top: 30rpx;
+   }
+   .list-item {
+       background: #fff;
+       margin-bottom: 30rpx;
+   }
+   .list-item:last-child {
+       margin: 0;
+   }

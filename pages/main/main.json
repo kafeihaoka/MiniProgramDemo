@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh":true,
+  "onReachBottomDistance":10,
+  "usingComponents": {
+    "wxc-toast": "../../dist/packages/@minui/wxc-toast/dist/index",
+    "wxc-input": "../../dist/packages/@minui/wxc-input/dist/index"
+  }
+}
